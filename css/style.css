@@ -58,6 +58,10 @@ a {
     color: var(--main-bg-color)
 }
 
+.sr-only {
+    display: none;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
