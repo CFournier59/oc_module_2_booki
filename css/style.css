@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 .main-container {
@@ -270,8 +271,36 @@ p i {
     margin-bottom: 5px;
 }
 
+/****** Activités ***********/
 
+.activites {
+    margin-top: 45px;
+}
 
+.activites h2 {
+    margin: 0 0 30px 30px;
+}
+
+.activites-cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.activites-cards .card {
+    padding: 0;
+    width: fit-content;
+}
+
+.activites-cards img {
+    width: 297px;
+    height: 380px;
+    border-radius: 20px 20px 0 0;
+}
+
+.activites-cards h3 {
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
