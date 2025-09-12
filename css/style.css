@@ -302,6 +302,28 @@ p i {
     padding-bottom: 20px;
 }
 
+/****** Footer ***********/
+
+footer {
+    background-color: var(--main-bg-color);
+    display: flex;
+    margin-top: 45px;
+}
+
+footer section {
+    width: 33%;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
