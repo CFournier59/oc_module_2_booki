@@ -517,12 +517,15 @@ li {
     }
 
     .activites-cards {
-        flex-direction: column;
+        flex-wrap: wrap;
         padding: 0;
     }
 
-    .activites-cards .card {
-        width: 100%;
+    .activites-cards a {
+        flex: 1 1 228px;
+        max-width: 346px;
+        min-width: 221px;
+
     }
 
     .activites-cards img {
