@@ -150,7 +150,7 @@ input[type="submit"] {
     margin-bottom: 30px;
 }
 
-.filtres, .filtres-buttons {
+.filtres, .filtres-buttons-container {
     display: flex;
     gap: 20px;
     align-items: center;
@@ -165,7 +165,7 @@ button {
     background-color: white;
 }
 
-button:hover {
+.filtres-button:hover {
     background-color: #DEEBFF;
 }
 
@@ -467,7 +467,7 @@ li {
         left: 27%;
     }
 
-    .filtres-buttons {
+    .filtres-buttons-container {
         width: 100%;
         flex-wrap: wrap;
         justify-content: space-between;
